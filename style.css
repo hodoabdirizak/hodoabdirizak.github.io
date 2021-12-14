@@ -1,27 +1,27 @@
 body {
-    background: #E5E5E5;
+    background: #2A2D3C;
     text-align: center;
 }
 #main {
     width: 1000px;
     height: 600px;
-    background: #E5E5E5;
+    background: #2A2D3C;
     margin: 25px auto;
 }
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font: 24pt;
-    color: #000000;
+    color: #ffff;
 }
 hr {
     height: 2px;
-    color: #000000;
+    color: #ffff;
 }
 p {
     font-family:"Calibri";
     font-size: 16pt;
     text-align: left;
     text-indent: 48px;
-    color: #000000;
+    color: #ffff;
 }
