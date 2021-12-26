@@ -3,9 +3,9 @@
   --header-height: 3rem;
   --font-semi: 600;
 
-  --hue-color: 44;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --hue-color: 224;
+  --first-color: hsl(var(--hue-color), 64%, 86%);
+  --second-color: hsl(var(--hue-color), 19%, 56%);
 
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -375,8 +375,8 @@ img {
 
 
 .footer {
-  background-color: #2A2D3D;
-  color: #fff;
+  background-color: #fff;
+  color: #2A2D3D;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
