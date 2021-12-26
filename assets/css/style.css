@@ -3,7 +3,7 @@
   --header-height: 3rem;
   --font-semi: 600;
 
-  --hue-color: 224;
+  --hue-color: 244;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
 
