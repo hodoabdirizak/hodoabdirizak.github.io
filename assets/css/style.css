@@ -4,9 +4,9 @@
   --font-semi: 600;
 
   --hue-color: 224;
-  --first-color: hsl(var(#2A2D3D), 89%, 60%);
-  --second-color: hsl(var(#7A85A3), 56%, 12%);
-  --third-color: hsl(var(#2A2D3D), 89%, 60%);
+  --first-color: #2A2D3D;
+  --second-color: #7A85A3;
+  --third-color: #C4D0F2;
 
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
