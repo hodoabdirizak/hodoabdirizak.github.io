@@ -40,8 +40,8 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .experience__subtitle, .experience__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .experience__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.experience__data, .projects__img, .contact__input',{interval: 200});
+sr.reveal('.home_data, .about_img, .experience_subtitle, .experience_text',{}); 
+sr.reveal('.home_img, .about_subtitle, .about_text, .experience_img',{delay: 400}); 
+sr.reveal('.home_social-icon',{ interval: 200}); 
+sr.reveal('.experience_data, .projects_img, .contact_input',{interval: 200});
 // reveal
