@@ -4,9 +4,8 @@
   --font-semi: 600;
 
   --hue-color: 224;
-  --first-color: #2A2D3D;
-  --second-color: #7A85A3;
-  --third-color: #C4D0F2;
+  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --second-color: hsl(var(--hue-color), 56%, 12%);
 
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -71,7 +70,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--third-color);
+  color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
