@@ -4,8 +4,9 @@
   --font-semi: 600;
 
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: hsl(var(#2A2D3D), 89%, 60%);
+  --second-color: hsl(var(#7A85A3), 56%, 12%);
+  --third-color: hsl(var(#2A2D3D), 89%, 60%);
 
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -70,7 +71,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--third-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -107,7 +108,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #2A2D3D;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -139,7 +140,7 @@ img {
 
 .nav__link {
   position: relative;
-  color: #fff;
+  color: #2A2D3D;
 }
 
 .nav__link:hover {
