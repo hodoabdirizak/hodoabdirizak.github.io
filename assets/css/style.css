@@ -85,7 +85,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #2A2D3D;
 }
 
 .section {
@@ -128,7 +128,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #2A2D3D;
     transition: .5s;
   }
 }
@@ -153,7 +153,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #2A2D3D;
 }
 
 .nav__logo {
@@ -174,7 +174,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #2A2D3D;
 }
 
 
@@ -236,7 +236,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #2A2D3D;
   color: #2A2D3D;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -308,7 +308,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: #2A2D3D;
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -375,8 +375,8 @@ img {
 
 
 .footer {
-  background-color: var(--second-color);
-  color: #2A2D3D;
+  background-color: #2A2D3D;
+  color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
