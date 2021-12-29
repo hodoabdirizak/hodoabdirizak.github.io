@@ -34,14 +34,21 @@ window.addEventListener('scroll', scrollActive)
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '60px',
+    distance: '80px',
     duration: 2000,
-    delay: 200,
-//     reset: true
+    reset: true
 });
 
-sr.reveal('.home__data, .about__img, .experience__subtitle, .experience__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .experience__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.experience__data, .projects__img, .contact__input',{interval: 200});
-// reveal
+// home reveal
+sr.reveal('.home__title'); 
+sr.reveal('.button', {delay: 200});
+sr.reveal('.home__social-icon',{ interval: 200});
+
+// about reveal
+sr.reveal('section-title');
+sr.reveal('.about__subtitle', {delay: 200}); 
+sr.reveal('.about__text', {delay: 400}); 
+
+// experience reveal
+sr.reveal('experience__subtitle');
+sr.reveal('experience__text', {delay: 200});
