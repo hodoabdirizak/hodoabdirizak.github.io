@@ -30,25 +30,3 @@ function scrollActive(){
 }
 // scroll animation
 window.addEventListener('scroll', scrollActive)
-
-
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-});
-
-// home reveal
-sr.reveal('.home__title',{}) 
-sr.reveal('.button', {delay: 200})
-sr.reveal('.home__social-icon',{interval: 200})
-
-// about reveal
-sr.reveal('.section-title')
-sr.reveal('.about__subtitle',{delay: 200}) 
-sr.reveal('.about__text',{delay: 400}) 
-
-// experience reveal
-sr.reveal('.experience__subtitle',{})
-sr.reveal('.experience__text',{delay: 200})
