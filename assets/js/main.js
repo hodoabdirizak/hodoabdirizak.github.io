@@ -10,7 +10,7 @@ const showMenu = (toggleId, navId) =>{
     }
 }
 showMenu('nav-toggle','nav-menu')
-// scroll
+
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -31,7 +31,7 @@ function scrollActive(){
 // scroll animation
 window.addEventListener('scroll', scrollActive)
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
@@ -40,15 +40,15 @@ const sr = ScrollReveal({
 });
 
 // home reveal
-sr.reveal('.home__title'); 
-sr.reveal('.button', {delay: 200});
-sr.reveal('.home__social-icon',{ interval: 200});
+sr.reveal('.home__title',{}) 
+sr.reveal('.button', {delay: 200})
+sr.reveal('.home__social-icon',{interval: 200})
 
 // about reveal
-sr.reveal('.section-title');
-sr.reveal('.about__subtitle', {delay: 200}); 
-sr.reveal('.about__text', {delay: 400}); 
+sr.reveal('.section-title')
+sr.reveal('.about__subtitle',{delay: 200}) 
+sr.reveal('.about__text',{delay: 400}) 
 
 // experience reveal
-sr.reveal('.experience__subtitle');
-sr.reveal('.experience__text', {delay: 200});
+sr.reveal('.experience__subtitle',{})
+sr.reveal('.experience__text',{delay: 200})
