@@ -107,7 +107,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #2A2D3D;
+  background-color: #282A36;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -123,12 +123,11 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 80%;
-    height: 100%;
+    right: 0;
+    width: 10%;
+    top: 75%;
     padding: 2rem;
-    background-color: #2A2D3D;
+    background-color: #282A36;
     transition: .5s;
   }
 }
@@ -144,6 +143,7 @@ img {
 
 .nav__link:hover {
   position: relative;
+  color: var(--first-color);
 }
 
 .nav__link:hover::after {
@@ -151,8 +151,8 @@ img {
   content: '';
   width: 100%;
   height: 0.18rem;
-  left: 0;
   top: 2rem;
+  color: var(--first-color);
   background-color: #2A2D3D;
 }
 
@@ -162,7 +162,7 @@ img {
 
 .nav__toggle {
   color: var(--second-color);
-  font-size: 1.5rem;
+  font-size: 5rem;
   cursor: pointer;
 }
 
@@ -182,7 +182,6 @@ img {
   right: 0;
 }
 
-
 .home {
   position: relative;
   row-gap: 5rem;
@@ -191,6 +190,10 @@ img {
 
 .home__data {
   align-self: center;
+}
+
+.container {
+  display: inline-block;
 }
 
 .home__title {
@@ -234,14 +237,15 @@ img {
 }
 
 .button {
-  display: inline-block;
   border-radius: .5rem;
   border: .2rem solid black;
   border-color: #BA9EE9;
   color: #BA9EE9;
   background-color: #282A36;
-  padding: .75rem 2.5rem;
+  padding: .75rem .75rem;
   transition: .3s;
+  width: 10rem;
+  text-align: center;
 }
 
 .button:hover {
@@ -377,8 +381,8 @@ img {
 
 
 .footer {
-  background-color: #fff;
-  color: #2A2D3D;
+  background-color: #282A36;
+  color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -395,7 +399,7 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: #282A36;
   margin: 0 var(--mb-2);
 }
 
@@ -523,4 +527,23 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid #C5CCEF;
+  white-space: nowrap;
+  animation:
+    typing 3s steps(30, end) forwards,
+    blinking .9s infinite;
+  font-size: 25px;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: #C5CCEF; }
 }

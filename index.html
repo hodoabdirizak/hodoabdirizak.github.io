@@ -13,18 +13,15 @@
     </script>
     <link href = "assets/css/style.css" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,500&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
     <title>Hodo</title>
   </head>
   <body>
+
     <header class="l-header">
       <nav class="nav bd-grid">
-          <div>
-              <a href="#" class="nav__logo">Hodo</a>
-          </div>
-
           <div class="nav__menu" id="nav-menu">
               <ul class="nav__list">
                   <li class="nav__item"><a href="#home" class="nav__link active">/home</a></li>
@@ -43,15 +40,15 @@
   <main class="l-main">
     <section class ="home bd-grid" id="home">
       <div class="home__data">
-        <div class="typewriter">
-          <h1 class="home__title">Hi, I'm <span class="home__title-color"> Hodo</span></h1>
+        <div class="container">
+          <div class="typed-out"><h1 class="home__title">Hi, I'm <span class="home__title-color"> Hodo</span></h1><br></div>
         </div>
-        <a href="#" class="button">Say hello!</a>
       </div>
+      <a href="mailto:hodo.abdirizak@ryerson.ca" class="button">Say hello!</a>
 
       <div class="home__social">
-        <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-        <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/hodoabdirizak/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/hodoabdirizak" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
       </div>
 
       <div class="home__img">
@@ -67,8 +64,8 @@
     </div>
   </section>
 
-  <section class="about section " id="about">
-    <h2 class="section-title">/about</h2>
+  <section class="about section" id="about">
+    <h2 class="section-title">/about me</h2>
 
     <div class="about__container bd-grid">
         <div class="about__img">
@@ -76,9 +73,29 @@
         </div>
         
         <div>
-            <h2 class="about__subtitle">I'm Hodo</h2>
-            <p class="about__text">I am a software engineer based in Toronto. I have a passion in full-stack development, technology trends, and all things in between. I am currently studying Computer Science at Ryerson University and seeking an internship for Summer 2022.</p>
-            </p>I love expressing creativity through building projects that involve things I'm interested in.<br>In my free time, I read sci-fi and fuel my latte addiction.</p>           
+            <p class="about__text">I am currently studying <b>Computer Science</b> at <b>Ryerson University</b> and seeking an internship for Summer 2022. I am a software engineer based in Toronto. I have a passion for <b>full-stack development, technology trends</b>, and all things in between.
+        </br>
+      </br>
+            I love expressing creativity through building projects that involve things I'm interested in.<br>In my free time, I read sci-fi and fuel my latte addiction. Here are some technologies I've been working with:
+          </br>
+          </br>
+        </p>
+        <div class = "technologies">
+        <div style="float: left; width: 50%;">
+          <ul class='bx-ul'>
+            <li><i class='bx  bx-right-arrow'></i>Python</li>
+            <li><i class='bx  bx-right-arrow'></i>Java</li>
+            <li><i class='bx  bx-right-arrow'></i>HTML/CSS</li>
+          </ul>
+          </div>
+        <div style="float: right; width: 50%;">
+          <ul class='bx-ul'>
+            <li><i class='bx  bx-right-arrow'></i>Java</li>
+            <li><i class='bx  bx-right-arrow'></i>Flask</li>
+            <li><i class='bx  bx-right-arrow'></i>C</li>
+          </ul>
+          </div>
+        </div>
         </div>                                   
     </div>
   </section>
@@ -87,7 +104,6 @@
     <h2 class="section-title">/experience</h2>
     <div class="experience__container bd-grid">          
       <div>
-          <h2 class="experience__subtitle">/experience</h2>
           <p class="experience__text">This is where experience would go.</p>
       </div>
     </div>
@@ -116,8 +132,7 @@
     <p class="footer__copy">&#169; Built and designed by Hodo Abdirizak.<br>All rights reserved.</p>
   </footer>
 <script>
-  // home reveal
-  ScrollReveal().reveal('.home__title',{}) 
+  // home reveal 
   ScrollReveal().reveal('.button', {delay: 200})
   ScrollReveal().reveal('.home__social-icon',{interval: 200})
   
@@ -125,7 +140,7 @@
   ScrollReveal().reveal('.section-title')
   ScrollReveal().reveal('.about__subtitle',{delay: 200}) 
   ScrollReveal().reveal('.about__text',{delay: 400}) 
-  
+  ScrollReveal().reveal('.technologies',{delay: 200}) 
   // experience reveal
   ScrollReveal().reveal('.experience__subtitle',{})
   ScrollReveal().reveal('.experience__text',{delay: 200})
