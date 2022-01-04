@@ -26,7 +26,6 @@
               <ul class="nav__list">
                   <li class="nav__item"><a href="#home" class="nav__link active">/home</a></li>
                   <li class="nav__item"><a href="#about" class="nav__link">/about</a></li>
-                  <li class="nav__item"><a href="#experience" class="nav__link">/experience</a></li>
                   <li class="nav__item"><a href="#projects" class="nav__link">/projects</a></li>
               </ul>
           </div>
@@ -100,17 +99,30 @@
     </div>
   </section>
 
-  <section class="experience section" id="experience">
-    <h2 class="section-title">/experience</h2>
-    <div class="experience__container bd-grid">          
-      <div>
-          <p class="experience__text">This is where experience would go.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="projects section" id="projects">
     <h2 class="section-title">/projects</h2>
+    <div class="projects-grid">
+      <div class="projects-card">
+        <div class="card-header"><a href="https://github.com/nvaleras/podspace-server" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a></div>
+        <div class="card-title">PodSpace</div><br><br>
+        <div class="card-desc">A web-based private social network.</div>
+        <div class="card-tech">React.js, Typescript, Twilio API</div>
+      </div>
+      
+      <div class="projects-card">
+        <div class="card-header"><a href="https://github.com/hodoabdirizak/song-lyric-generator" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a></div>
+        <div class="card-title">Song Lyric Generator</div><br><br>
+        <div class="card-desc">A compact Flask application that will create and run our model, generating lyrics for any artist using Genius.com’s APIs and Markov chains.</div>
+        <div class="card-tech">Python, Flask</div>
+      </div>
+      
+      <div class="projects-card">
+        <div class="card-header"><a href="https://github.com/hodoabdirizak/speech-recognition-site" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a></div>
+        <div class="card-title">Speech Recognition Site</div><br><br>
+        <div class="card-desc">A Speech-to-Text Transcription service on audio file uploads.</div>
+        <div class="card-tech">HTML, Python, Flask</div>
+      </div>
+    </div>
   </section>
 
   <section class="contact section" id="contact">
@@ -141,9 +153,7 @@
   ScrollReveal().reveal('.about__subtitle',{delay: 200}) 
   ScrollReveal().reveal('.about__text',{delay: 400}) 
   ScrollReveal().reveal('.technologies',{delay: 200}) 
-  // experience reveal
-  ScrollReveal().reveal('.experience__subtitle',{})
-  ScrollReveal().reveal('.experience__text',{delay: 200})
+  
   </script>
   </body>
 </html>
