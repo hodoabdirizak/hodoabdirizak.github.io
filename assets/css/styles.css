@@ -135,6 +135,7 @@ a:hover {
 	letter-spacing: 2px;
 	max-width: 100%;
 	font-size: 175%;
+	text-align: center;
 }
 
 #app {
