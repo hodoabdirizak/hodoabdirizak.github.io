@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 5286fee68768c25151a0b3e57c7b022d2dd00c3a hodoabdirizak <hodo.abdirizak@hotmail.com> 1703878593 -0500	commit (initial): Initialize project using Create React App
+5286fee68768c25151a0b3e57c7b022d2dd00c3a 960b842d4be955163ede6be886265c799a065e54 hodoabdirizak <hodo.abdirizak@hotmail.com> 1731721980 -0500	commit: Initial site
+960b842d4be955163ede6be886265c799a065e54 0000000000000000000000000000000000000000 hodoabdirizak <hodo.abdirizak@hotmail.com> 1731722188 -0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 960b842d4be955163ede6be886265c799a065e54 hodoabdirizak <hodo.abdirizak@hotmail.com> 1731722188 -0500	Branch: renamed refs/heads/master to refs/heads/main
+960b842d4be955163ede6be886265c799a065e54 3edb294a326a31a009deb85052a147aae1b656fb hodoabdirizak <hodo.abdirizak@hotmail.com> 1731723963 -0500	commit: Configure React app for deployment to GitHub Pages

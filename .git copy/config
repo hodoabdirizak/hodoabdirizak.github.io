@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "personal-site"]
+	url = https://github.com/hodoabdirizak/personal-site.git
+	fetch = +refs/heads/*:refs/remotes/personal-site/*
+[branch "main"]
+	remote = personal-site
+	merge = refs/heads/main
+[pull]
+	rebase = false
