@@ -4,7 +4,6 @@ import linkedin_logo from '../assets/linkedin_logo.png';
 import email_logo from '../assets/email_logo.png'
 import github_logo from '../assets/github_logo.png'
 import behance_logo from '../assets/behance_logo.png'
-import dribbble_logo from '../assets/dribbble_logo.png'
 
 class Contact extends Component {
   render() {
@@ -30,9 +29,9 @@ class Contact extends Component {
           <a className='contact__logo' href="https://www.behance.net/hodoa" target="_blank" rel="noreferrer">
             <img className='contact__logo' src={behance_logo} alt="" width="60" height="60"></img>
           </a>
-          <a className='contact__logo' href="https://dribbble.com/hodoabdirizak" target="_blank" rel="noreferrer">
+          {/* <a className='contact__logo' href="https://dribbble.com/hodoabdirizak" target="_blank" rel="noreferrer">
             <img className='contact__logo' src={dribbble_logo} alt="" width="60" height="60"></img>
-          </a>
+          </a> */}
         </div>
       </div>
     );

@@ -81,6 +81,6 @@ hr.solid {
     }
 
     .work__title{
-        font-size: calc(var(--section-mobile-title-font-size) * 0.7);
+        font-size: calc(var(--section-mobile-title-font-size) * 0.6);
     }
 }
