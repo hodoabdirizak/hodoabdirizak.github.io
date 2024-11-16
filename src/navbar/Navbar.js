@@ -1,12 +1,15 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
 import "./Navbar.css";
 
 const Navbar = ({ onLinkClick }) => {
+  const isMobile = useMediaQuery({ maxWidth: "767px" });
 
   const renderNavLinks = () => {
+    const listClassName = isMobile ? "nav__list" : "nav__list__web";
 
     return (
-      <ul className='nav__list'>
+      <ul className={listClassName}>
         <li>
           <button className="nav__link" onClick={() => { onLinkClick('about'); }}>
             About
