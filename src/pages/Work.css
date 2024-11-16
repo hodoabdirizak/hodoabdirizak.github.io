@@ -58,7 +58,6 @@ hr.solid {
 @media only screen and (max-width: 767px) {
     .work__container {
         height: var(--full-height-mobile);
-        padding-top: 95px;
     }
 
     .work__item {
@@ -84,3 +83,9 @@ hr.solid {
         font-size: calc(var(--section-mobile-title-font-size) * 0.6);
     }
 }
+
+/* @media only screen and (max-width: 390px) {
+    .work__container {
+        padding-top: 80%;
+    }
+} */

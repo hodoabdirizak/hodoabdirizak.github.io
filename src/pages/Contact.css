@@ -60,3 +60,13 @@
         height: 40px;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    .contact__container {
+        padding-top: 30%;
+    }
+
+    .contact__logo_container {
+        padding-top: 40%;
+    }
+}
