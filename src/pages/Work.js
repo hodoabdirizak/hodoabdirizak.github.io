@@ -3,7 +3,7 @@ import './Work.css';
 class Work extends Component {
   render() {
     return (
-      <div className="resume__container">
+      <div className="work__container">
         <div className="work__text-section">
         <h2 className="work__title">Work & Experience</h2>
           <div className="work__item">

@@ -1,39 +1,24 @@
-import React, { useState } from "react";
-import { IoClose, IoMenu } from "react-icons/io5";
-import { useMediaQuery } from "react-responsive";
+import React from "react";
 import "./Navbar.css";
 
 const Navbar = ({ onLinkClick }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isMobile = useMediaQuery({ maxWidth: "769px" });
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    if (isMobile) {
-      setIsMenuOpen(false);
-    }
-  };
 
   const renderNavLinks = () => {
-    const listClassName = isMobile ? "nav__list" : "nav__list__web";
 
     return (
-      <ul className={listClassName}>
+      <ul className='nav__list'>
         <li>
-          <button className="nav__link" onClick={() => { onLinkClick('about'); closeMobileMenu(); }}>
+          <button className="nav__link" onClick={() => { onLinkClick('about'); }}>
             About
           </button>
         </li>
         <li>
-          <button className="nav__link" onClick={() => { onLinkClick('work'); closeMobileMenu(); }}>
+          <button className="nav__link" onClick={() => { onLinkClick('work'); }}>
             Work
           </button>
         </li>
         <li>
-          <button className="nav__link" onClick={() => { onLinkClick('contact'); closeMobileMenu(); }}>
+          <button className="nav__link" onClick={() => { onLinkClick('contact'); }}>
             Contact
           </button>
         </li>

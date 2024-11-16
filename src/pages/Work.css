@@ -61,6 +61,7 @@ hr.solid {
 @media only screen and (max-width: 767px) {
     .work__container {
         height: var(--full-height-mobile);
+        padding-top: 100px;
     }
 
     .work__item {

@@ -105,10 +105,13 @@
         align-items: center;
     }
 
+    .homepage__gif,
     .homepage__video {
-        top: 15%;
-        left: 0;
-        height: 80%;
+        position: absolute;
+        top: 35%;
+        left: 0.15rem;
+        min-width: 120%;
+        max-width: 120%;
         object-fit: cover;
     }
 
@@ -126,10 +129,10 @@
 
     .name-line__mobile {
         display: inline;
-        align-items: center;
+        top: 35%;
         text-align: center;
         margin: 0;
-        margin-top: -90%;
+        margin-top: -50%;
         font-size: 25px !important;
     }
 
