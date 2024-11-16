@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe193e46.css",
+    "main.css": "/static/css/main.b080c2cf.css",
     "main.js": "/static/js/main.cce3db77.js",
     "static/media/3D.mp4": "/static/media/3D.7d06400166777d5d12a5.mp4",
     "static/media/3D.gif": "/static/media/3D.c06960e03291a05a4185.gif",
@@ -9,11 +9,11 @@
     "static/media/behance_logo.png": "/static/media/behance_logo.2fa0297d7629af5159fc.png",
     "static/media/email_logo.png": "/static/media/email_logo.2403fe31c9e8d24c7c30.png",
     "index.html": "/index.html",
-    "main.fe193e46.css.map": "/static/css/main.fe193e46.css.map",
+    "main.b080c2cf.css.map": "/static/css/main.b080c2cf.css.map",
     "main.cce3db77.js.map": "/static/js/main.cce3db77.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe193e46.css",
+    "static/css/main.b080c2cf.css",
     "static/js/main.cce3db77.js"
   ]
 }
