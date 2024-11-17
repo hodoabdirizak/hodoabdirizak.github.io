@@ -153,3 +153,9 @@ h2 {
         padding-bottom: 0.75rem;
     }
 }
+
+@media (max-width: 420px) {
+    .about__container {
+        height: calc(var(--full-height-mobile) * 2.25);
+    }
+}
