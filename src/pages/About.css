@@ -14,6 +14,9 @@
     float: left;
     margin-right: 3.5rem;
     margin-bottom: 2rem;
+    outline: 1px solid rgba(208, 208, 208, 0.6);
+    outline-offset: 10px; 
+    border-radius: 2rem;
 }
 
 .about__text {
@@ -128,6 +131,7 @@ h2 {
         float: left;
         margin-right: 1.5rem;
         margin-bottom: 1rem;
+        outline-offset: 5px;
     }
 
     .about__title {
