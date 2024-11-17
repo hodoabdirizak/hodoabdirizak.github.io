@@ -14,6 +14,8 @@ import c_logo from '../assets/c_logo.png'
 import figma_logo from '../assets/figma_logo.png'
 import docker_logo from '../assets/docker_logo.png'
 import postman_logo from '../assets/postman_logo.png'
+import git_logo from '../assets/git_logo.png'
+import google_cloud_logo from '../assets/google_cloud_logo.png'
 
 class About extends Component {
   render() {
@@ -101,6 +103,16 @@ class About extends Component {
               <div className="about__tech_item">
                 <img src={postman_logo} alt="Postman" className="about__tech_item-logo" />
                 <p className="about__tech_item-title">Postman</p>
+              </div>
+            </div>
+            <div className="about__tech-section-row">
+              <div className="about__tech_item">
+                <img src={git_logo} alt="Git" className="about__tech_item-logo" />
+                <p className="about__tech_item-title">Git</p>
+              </div>
+              <div className="about__tech_item">
+                <img src={google_cloud_logo} alt="Google Cloud" className="about__tech_item-logo" />
+                <p className="about__tech_item-title">Google Cloud</p>
               </div>
             </div>
           </div>
