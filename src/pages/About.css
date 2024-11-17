@@ -143,6 +143,10 @@ h2 {
         left: 4%
     }
 
+    .about__tech_item{
+        width: 50px;
+    }
+
     .about__tech_item-logo{
         width: 3rem;
         margin-bottom: 1rem;
@@ -152,10 +156,14 @@ h2 {
         padding-top: 1rem;
         padding-bottom: 0.75rem;
     }
+
+    .about__tech-section {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 420px) {
     .about__container {
-        height: calc(var(--full-height-mobile) * 2.25);
+        height: calc(var(--full-height-mobile) * 2.5);
     }
 }
