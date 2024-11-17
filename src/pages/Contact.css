@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 767px) {
     .contact__container {
-        height: calc(var(--full-height-mobile) * 1.3);
+        height: var(--full-height-mobile);
     }
 
     .contact__title {

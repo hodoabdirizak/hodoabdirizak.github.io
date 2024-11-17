@@ -57,7 +57,7 @@ hr.solid {
 
 @media only screen and (max-width: 767px) {
     .work__container {
-        height: var(--full-height-mobile);
+        height: calc(var(--full-height-mobile) * 0.8);
     }
 
     .work__item {

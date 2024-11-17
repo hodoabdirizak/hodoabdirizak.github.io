@@ -30,7 +30,7 @@ class About extends Component {
           </p>
         </div>
         <p className="about__tech-title">
-        Technologies I’m Familiar With:
+        Technical Skillset
         </p>
         <div className="about__tech-container">
           <div className="about__tech-section">
