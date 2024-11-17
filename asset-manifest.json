@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d7ca763.css",
-    "main.js": "/static/js/main.d21b2a6f.js",
+    "main.css": "/static/css/main.c0c753ee.css",
+    "main.js": "/static/js/main.17fc34bb.js",
     "static/media/3D.mp4": "/static/media/3D.7d06400166777d5d12a5.mp4",
     "static/media/3D.gif": "/static/media/3D.c06960e03291a05a4185.gif",
     "static/media/ProfileImage.jpg": "/static/media/ProfileImage.9bb2d16db52f046763f7.jpg",
@@ -9,6 +9,8 @@
     "static/media/sql_logo.png": "/static/media/sql_logo.85fb38d6773862e917f4.png",
     "static/media/node_logo.png": "/static/media/node_logo.aca5f5f1cd9de98d4edc.png",
     "static/media/sass_logo.png": "/static/media/sass_logo.a2591e27bc692562995c.png",
+    "static/media/google_cloud_logo.png": "/static/media/google_cloud_logo.1123aea6b7edb55ec689.png",
+    "static/media/git_logo.png": "/static/media/git_logo.8dd3688bb1415872d423.png",
     "static/media/typescript_logo.png": "/static/media/typescript_logo.659e4b9351cf1baa6930.png",
     "static/media/angular_logo.png": "/static/media/angular_logo.be6e83c90a8603ce4794.png",
     "static/media/figma_logo.png": "/static/media/figma_logo.d5b2d5d01248f9bde958.png",
@@ -20,11 +22,11 @@
     "static/media/java_logo.png": "/static/media/java_logo.f5dd86c3ef6ef3f85acf.png",
     "static/media/react_logo.png": "/static/media/react_logo.98ff38735baa4c1b0381.png",
     "index.html": "/index.html",
-    "main.6d7ca763.css.map": "/static/css/main.6d7ca763.css.map",
-    "main.d21b2a6f.js.map": "/static/js/main.d21b2a6f.js.map"
+    "main.c0c753ee.css.map": "/static/css/main.c0c753ee.css.map",
+    "main.17fc34bb.js.map": "/static/js/main.17fc34bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d7ca763.css",
-    "static/js/main.d21b2a6f.js"
+    "static/css/main.c0c753ee.css",
+    "static/js/main.17fc34bb.js"
   ]
 }
