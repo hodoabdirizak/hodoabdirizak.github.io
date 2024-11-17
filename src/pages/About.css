@@ -4,7 +4,7 @@
     max-width: 80%;
     gap: 1rem;
     height: var(--full-height) * 1.2;
-    padding-bottom: 170px;
+    padding-bottom: 100px;
 }
 
 .about__image {
@@ -35,17 +35,99 @@ h2 {
     margin-top: -6%;
 }
 
+.about__tech-title {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 30px;
+    font-family: var(--second-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about__tech-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: -6%;
+    position: relative;
+}
+
+.about__tech-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.about__tech-section-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__tech_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1.5rem;
+}
+
+.about__tech_item:hover {
+    -webkit-animation: glow .25s alternate infinite;
+    animation: glow .25s alternate infinite;
+  }
+
+
+.about__tech_item-logo{
+    width: 5.5rem;
+    margin-bottom: 1rem;
+}
+
+.about__tech_item-logo:hover {
+    -webkit-animation: glow .25s alternate infinite;
+    animation: glow .25s alternate infinite;
+  }
+
+  @-webkit-keyframes glow {
+    0% {
+      -webkit-filter: brightness(1);
+      filter: brightness(1);
+    }
+    100% {
+      -webkit-filter: brightness(1.2);
+      filter: brightness(1.2);
+    }
+  }
+  @keyframes glow {
+    0% {
+      -webkit-filter: brightness(1);
+      filter: brightness(1);
+    }
+    100% {
+      -webkit-filter: brightness(1.2);
+      filter: brightness(1.2);
+    }
+  }
+
+.about__tech_section-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+
 @media (max-width: 767px) {
 
     .about__container {
-        height: calc(var(--full-height-mobile) * 1.4);
+        height: calc(var(--full-height-mobile) * 2);
+        padding-bottom: 150px;
     }
     .about__image {
         width: 35%;
         float: left;
         margin-right: 1.5rem;
         margin-bottom: 1rem;
-
     }
 
     .about__title {
@@ -54,5 +136,20 @@ h2 {
 
     .about__text-section {
         font-size: 16px !important;
+    }
+
+    .about__tech-container {
+        flex-direction: column;
+        left: 4%
+    }
+
+    .about__tech_item-logo{
+        width: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .about__tech_section-title {
+        padding-top: 1rem;
+        padding-bottom: 0.75rem;
     }
 }
