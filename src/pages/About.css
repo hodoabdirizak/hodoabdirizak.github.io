@@ -48,18 +48,18 @@ h2 {
 }
 
 .about__tech-container {
+    max-width: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    left: -10%;
-    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__tech-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 2rem;
+    gap: 1rem;
 }
 
 .about__tech-section-row {
@@ -123,8 +123,8 @@ h2 {
 @media (max-width: 767px) {
 
     .about__container {
-        height: calc(var(--full-height-mobile) * 2);
-        padding-bottom: 150px;
+        height: fit-content;
+        padding-bottom: 0px;
     }
     .about__image {
         width: 35%;
