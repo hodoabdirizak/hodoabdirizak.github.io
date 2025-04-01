@@ -7,9 +7,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
+import LoadingScreen from './components/LoadingScreen';
 
 const App = () => {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+    const [loading, setLoading] = useState(true);
 
     // Track mouse movement
     useEffect(() => {
@@ -26,6 +28,10 @@ const App = () => {
     }, []);
 
     return (
+        <>
+        { loading ? (
+            <LoadingScreen onComplete={() => setLoading(false)} />
+        ) : (
         <Router>
             <Navbar onLinkClick={(section) => scroller.scrollTo(section, { smooth: true, duration: 800 })} />
 
@@ -55,6 +61,8 @@ const App = () => {
                 </Element>
             </main>
         </Router>
+    )}
+    </>
     );
 };
 
