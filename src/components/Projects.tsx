@@ -17,7 +17,7 @@ const projects = [
       "Claude API",
     ],
     github: "https://github.com/hodoabdirizak/intelliapply",
-    live: "#",
+    live: "https://intelliapply-production.up.railway.app",
     accent: "#6B2D3E",
   },
   {

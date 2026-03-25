@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const stats = [
   { number: "3", label: "Co-op terms" },
@@ -45,73 +44,47 @@ export default function About() {
             </motion.h2>
           </div>
 
-          {/* Photo + Text — editorial magazine layout */}
+          {/* Text — two-column editorial layout without photo */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 mb-24 md:mb-32">
-            {/* Photo — offset with editorial framing */}
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-              viewport={{ once: true }}
-              className="lg:col-span-5 lg:row-span-2 relative"
-            >
-              <div className="relative">
-                {/* Decorative offset border */}
-                <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-full h-full border border-burgundy/20 z-0" />
-                <div className="relative z-10 overflow-hidden bg-dusty-rose/20 aspect-[4/4.5]">
-                  <Image
-                    src="/hodo.jpg"
-                    alt="Hodo Abdirizak"
-                    width={600}
-                    height={800}
-                    className="w-full h-auto object-cover object-[center_15%] grayscale-[20%] contrast-[1.05]"
-                    priority
-                  />
-                </div>
-                {/* Photo caption — editorial style */}
-                <motion.p
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  viewport={{ once: true }}
-                  className="mt-6 md:mt-8 font-mono text-[10px] tracking-[0.3em] uppercase text-charcoal/30"
-                >
-                  Toronto, 2026
-                </motion.p>
-              </div>
-            </motion.div>
-
-            {/* Text columns — right side */}
+            {/* Left column — large intro text */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className="lg:col-start-7 lg:col-span-6"
+              className="lg:col-span-5"
             >
-              <p className="text-lg md:text-xl leading-relaxed text-charcoal/70">
-                {`I'm Hodo — a software engineer who believes the best code serves
-                people, not the other way around. With 3 co-op terms shipping
-                production software at scale (from airline ticketing platforms to
-                banking infrastructure), I bring a rare blend of technical depth
-                and human-centered thinking to everything I build.`}
+              <p className="font-serif text-2xl md:text-3xl lg:text-4xl text-charcoal leading-[1.3] tracking-[-0.01em]">
+                {`I build software that serves people — not the other way around.`}
               </p>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.35 }}
-              viewport={{ once: true }}
-              className="lg:col-start-7 lg:col-span-5"
-            >
-              <p className="text-lg md:text-xl leading-relaxed text-charcoal/70">
-                {`Currently based in Toronto but ready to go wherever the most
-                interesting problems are. I've worked across the full stack —
-                crafting polished UIs, designing resilient APIs, and collaborating
-                with cross-functional teams to ship features that matter.`}
-              </p>
-            </motion.div>
+            {/* Right column — body text */}
+            <div className="lg:col-start-7 lg:col-span-6 space-y-8">
+              <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="text-lg md:text-xl leading-relaxed text-charcoal/70"
+              >
+                {`With 3 co-op terms shipping production software at scale — from
+                airline ticketing platforms serving millions to banking
+                infrastructure — I bring a rare blend of technical depth and
+                human-centered thinking to everything I build.`}
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.35 }}
+                viewport={{ once: true }}
+                className="text-lg md:text-xl leading-relaxed text-charcoal/70"
+              >
+                {`Based in Toronto. I've worked across the full stack — crafting
+                polished UIs, designing resilient APIs, and collaborating with
+                cross-functional teams to ship features that matter.`}
+              </motion.p>
+            </div>
           </div>
 
           {/* Stats — large editorial numbers with a divider line */}
