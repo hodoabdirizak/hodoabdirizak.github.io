@@ -58,7 +58,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Mobile: photo + text grouped together, anchored to bottom */}
-      <div className="md:hidden relative z-[2] mt-auto px-6 pb-8">
+      <div className="md:hidden relative z-[2] flex-1 flex flex-col justify-end px-6 pb-10 pt-20">
         <motion.div
           initial={{ opacity: 0, scale: 1.05 }}
           animate={{ opacity: 1, scale: 1 }}
