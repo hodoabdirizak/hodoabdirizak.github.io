@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hodo Abdirizak — Software Engineer",
+  title: "Hodo Abdirizak | Software Engineer",
   description:
     "Portfolio of Hodo Abdirizak, a software engineer based in Toronto with experience at GoDaddy, TD Bank, and Global Solutions Team. Specializing in full-stack development with React, Vue, TypeScript, and more.",
   keywords: [
@@ -16,17 +16,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Hodo Abdirizak" }],
   openGraph: {
-    title: "Hodo Abdirizak — Software Engineer",
+    title: "Hodo Abdirizak | Software Engineer",
     description:
       "Software engineer with production experience at GoDaddy, TD Bank, and Global Solutions Team. Building software that serves people.",
-    url: "https://hodoabdirizak.com",
+    url: "https://hodoabdirizak.github.io",
     siteName: "Hodo Abdirizak",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hodo Abdirizak — Software Engineer",
+    title: "Hodo Abdirizak | Software Engineer",
     description:
       "Software engineer with production experience at GoDaddy, TD Bank, and Global Solutions Team.",
   },

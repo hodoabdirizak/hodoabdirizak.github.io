@@ -43,7 +43,7 @@ export default function Navbar() {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
             className={`font-mono text-xs tracking-[0.15em] uppercase transition-colors duration-300 ${
-              scrolled ? "text-charcoal" : "text-charcoal/60"
+              scrolled ? "text-charcoal" : "text-charcoal/90"
             }`}
           >
             H.A.
@@ -56,7 +56,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`font-sans text-[11px] tracking-[0.15em] uppercase transition-colors duration-300 hover:text-burgundy ${
-                  scrolled ? "text-charcoal/50" : "text-charcoal/40"
+                  scrolled ? "text-charcoal/70" : "text-charcoal/80"
                 }`}
               >
                 {link.label}
@@ -76,7 +76,7 @@ export default function Navbar() {
                   ? "rotate-45 translate-y-[6.5px] bg-charcoal"
                   : scrolled
                   ? "bg-charcoal"
-                  : "bg-charcoal/50"
+                  : "bg-charcoal/80"
               }`}
             />
             <span
@@ -85,7 +85,7 @@ export default function Navbar() {
                   ? "opacity-0"
                   : scrolled
                   ? "bg-charcoal"
-                  : "bg-charcoal/50"
+                  : "bg-charcoal/80"
               }`}
             />
             <span
@@ -94,7 +94,7 @@ export default function Navbar() {
                   ? "-rotate-45 -translate-y-[6.5px] bg-charcoal"
                   : scrolled
                   ? "bg-charcoal"
-                  : "bg-charcoal/50"
+                  : "bg-charcoal/80"
               }`}
             />
           </button>

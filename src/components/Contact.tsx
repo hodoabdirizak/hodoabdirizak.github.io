@@ -25,9 +25,7 @@ export default function Contact() {
           viewport={{ once: true, margin: "-80px" }}
           className="font-sans text-lg md:text-xl text-white/40 max-w-2xl mb-12"
         >
-          Currently in Toronto — open to relocation worldwide. Always excited to
-          talk about building great software, new opportunities, or the
-          intersection of tech and community.
+          Based in Toronto and open to new opportunities. Always happy to talk about building great software or the intersection of tech and community.
         </motion.p>
 
         {/* Links */}

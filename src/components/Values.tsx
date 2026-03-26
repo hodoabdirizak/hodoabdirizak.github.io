@@ -7,25 +7,25 @@ const values = [
     number: "01",
     title: "User Empathy First",
     description:
-      "Every line of code I write has a person on the other end. I start with the user\u2019s frustration, not the technical spec. At GoDaddy, I audited 8 UX bottlenecks by shadowing engineers in their daily workflows \u2014 because you can\u2019t fix what you don\u2019t feel.",
+      "Every line of code I write has a person on the other end. I start with the user's frustration, not the technical spec. At GoDaddy, I found 8 UX bottlenecks by shadowing engineers in their daily workflows. You can't fix what you don't feel.",
   },
   {
     number: "02",
     title: "Build to Last, Ship to Learn",
     description:
-      "I care about clean architecture and thoughtful abstractions, but not at the expense of momentum. The best systems are the ones that ship, get feedback, and evolve. I\u2019ve shipped production code at TD Bank, GoDaddy, and Global Solutions \u2014 always under real deadlines, always with real users.",
+      "I care about clean architecture, but not at the expense of momentum. The best systems ship, get feedback, and evolve. I've shipped production code at TD Bank, GoDaddy, and Global Solutions. Real deadlines, real users, every time.",
   },
   {
     number: "03",
     title: "Lift as You Climb",
     description:
-      "As Co-President of Women in CS at TMU, I organized events for 200+ students and grew engagement by 40%. Tech is better when more people have a seat at the table \u2014 I actively work to make that happen.",
+      "As Co-President of Women in CS at TMU, I organized events for 200+ students and grew engagement by 40%. Tech gets better when more people have a seat at the table. I work to make that happen.",
   },
   {
     number: "04",
     title: "Craft Over Cleverness",
     description:
-      "I\u2019d rather write clear, maintainable code that a new team member can understand in 10 minutes than clever code that impresses for 10 seconds. Readability is a feature.",
+      "I'd rather write clear, maintainable code that a new team member can understand in 10 minutes than clever code that impresses for 10 seconds. Readability is a feature.",
   },
 ];
 

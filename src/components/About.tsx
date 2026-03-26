@@ -55,7 +55,7 @@ export default function About() {
               className="lg:col-span-5"
             >
               <p className="font-serif text-2xl md:text-3xl lg:text-4xl text-charcoal leading-[1.3] tracking-[-0.01em]">
-                {`I build software that serves people — not the other way around.`}
+                {`I build software that serves people, not the other way around.`}
               </p>
             </motion.div>
 
@@ -68,10 +68,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="text-lg md:text-xl leading-relaxed text-charcoal/70"
               >
-                {`With 3 co-op terms shipping production software at scale — from
-                airline ticketing platforms serving millions to banking
-                infrastructure — I bring a rare blend of technical depth and
-                human-centered thinking to everything I build.`}
+                {`Three co-op terms shipping production software at scale. Airline ticketing platforms serving millions of users. Banking infrastructure under strict compliance. I bring technical depth and a focus on the people using what I build.`}
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 30 }}
@@ -80,9 +77,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="text-lg md:text-xl leading-relaxed text-charcoal/70"
               >
-                {`Based in Toronto. I've worked across the full stack — crafting
-                polished UIs, designing resilient APIs, and collaborating with
-                cross-functional teams to ship features that matter.`}
+                {`Based in Toronto. I work across the full stack: polished UIs, resilient APIs, and cross-functional teams shipping features that actually matter.`}
               </motion.p>
             </div>
           </div>

@@ -7,7 +7,7 @@ const projects = [
     title: "IntelliApply",
     subtitle: "AI-Powered Job Application Tracker",
     description:
-      "Track applications, analyze resume-job fit with AI, and generate tailored cover letters \u2014 all in one modern interface.",
+      "Track applications, analyze resume-job fit with AI, and generate tailored cover letters. All in one clean interface.",
     tech: [
       "Next.js 15",
       "TypeScript",
@@ -24,7 +24,7 @@ const projects = [
     title: "DevPulse",
     subtitle: "Real-Time GitHub Analytics Dashboard",
     description:
-      "Commit heatmaps, PR metrics, language breakdowns, and a gamified developer score \u2014 powered by real-time WebSocket updates.",
+      "Commit heatmaps, PR metrics, language breakdowns, and a gamified developer score. Powered by real-time WebSocket updates.",
     tech: ["Python", "FastAPI", "WebSockets", "Redis", "PostgreSQL", "Docker"],
     github: "https://github.com/hodoabdirizak/devpulse",
     live: null,
