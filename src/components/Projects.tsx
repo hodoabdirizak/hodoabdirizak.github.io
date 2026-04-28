@@ -4,6 +4,24 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Spectator",
+    subtitle: "Browser Session Replay Engine",
+    description:
+      "A DVR for web sessions. Records the DOM and streams every user interaction over WebSocket, then replays it frame-perfectly with click heatmaps, conversion funnels, and live spectating. Built from scratch — TypeScript SDK, Go server, React player.",
+    tech: [
+      "TypeScript",
+      "Go",
+      "React 19",
+      "WebSockets",
+      "PostgreSQL",
+      "Docker",
+      "Fly.io",
+    ],
+    github: "https://github.com/hodoabdirizak/spectator",
+    live: "https://spectator-player.vercel.app",
+    accent: "#2A4A7A",
+  },
+  {
     title: "IntelliApply",
     subtitle: "AI-Powered Job Application Tracker",
     description:
